@@ -1,4 +1,4 @@
-# AI Developer Intern Assessment: MNIST & Animal Verification
+MNIST Classification & Animal Verification
 
 This repository contains solutions for two main tasks: an OOP-based MNIST classification system and a multi-modal animal verification pipeline.
 
@@ -9,7 +9,7 @@ This repository contains solutions for two main tasks: an OOP-based MNIST classi
 - **Task_2/**: Animal verification pipeline (NLP + CV).
   - **CV_model/**: Image classification logic (MobileNetV2).
   - **NER_model/**: Named Entity Recognition logic.
-  - `pipeline.py`: Main logic that integrates both models.
+  - `pipeline.py`: Main logic that integrates both models - extracting animals from text and checking if such animals are present in given images.
   - `class_names.json`: Mapping for 15 animal classes.
 - **Demo.ipynb**: Comprehensive Jupyter Notebook models evaluation, and live demonstrations.
 
