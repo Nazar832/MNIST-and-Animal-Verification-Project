@@ -1,11 +1,11 @@
 ## 📂 Project Structure
-- **Task_1/**: MNIST classification using various algorithms (RF, NN, CNN).
+- **Task_1/**: An OOP-based MNIST classification system using three different algorithms - Random Forest, CNN, and MLP.
   - `classes.py`: OOP implementation of model interfaces and logic.
   - `train.py`: Script to train and save MNIST models.
-- **Task_2/**: Animal verification pipeline (NLP + CV).
+- **Task_2/**: A multi-modal (CV + NER) animal verification pipeline.
   - **CV_model/**: Image classification logic (MobileNetV2).
   - **NER_model/**: Named Entity Recognition logic.
-  - `pipeline.py`: Main logic that integrates both models - extracting animals from text and checking if such animals are present in given images.
+  - `pipeline.py`: Main logic that integrates both models - extracting an animal from text and checking whether such an animal is present in a given image.
   - `class_names.json`: Mapping for 15 animal classes.
 - **Demo.ipynb**: Comprehensive Jupyter Notebook models evaluation, and live demonstrations.
 
