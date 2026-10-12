@@ -1,7 +1,3 @@
-MNIST Classification & Animal Verification
-
-This repository contains solutions for two main tasks: an OOP-based MNIST classification system and a multi-modal animal verification pipeline.
-
 ## 📂 Project Structure
 - **Task_1/**: MNIST classification using various algorithms (RF, NN, CNN).
   - `classes.py`: OOP implementation of model interfaces and logic.
